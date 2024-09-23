@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fcf9ee;
+  overflow-x: hidden;
+  font-family: "Gowun Batang", serif;
+  font-style: normal;
+}
+nav {
+  height: 140px;
+}
+nav .top {
+  height: 70px;
+  background-color: #fcf9ee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+.top i {
+  padding: 0 20px;
+  font-size: 20px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+
+  list-style: none;
+  padding: 0 300px;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+.pag1 {
+  height: 100vh;
+  background: url(https://www.jomalone.com/media/export/cms/homepage/New/mod1/orangemarmalade_homepage_.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.pag1 {
+  padding-top: 50px;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pag1 p {
+  margin-top: 30px;
+  text-decoration: underline;
+}
+.pag2 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.pag2 > .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+  width: 80%;
+  border: 1px dotted black;
+  display: flex;
+}
+.pag2 > .container .left {
+  padding-top: 80px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pag2 > .container .left img {
+  height: 400px;
+}
+.pag2 > .container .left p {
+  text-decoration: underline;
+  font-weight: 500;
+}
+.pag2 > .container .right {
+  width: 50%;
+  height: 100%;
+  background: url(https://www.jomalone.com/media/export/cms/campaigns/FY25_Cologne%20Intense/Homepage/Mod2/25B01_HP_Mod_2_Image_DT_1-HC_A_2x.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pag3 h1 {
+  text-align: center;
+}
+.cardcontainer {
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  height: 510px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.card p {
+  margin: 10px 20px;
+}
+.card h3 {
+  margin: auto;
+  align-items: center;
+  width: 200px;
+  border-top: 1px solid #e2e1d7;
+  border-bottom: 1px solid #e2e1d7;
+}
+.card button {
+  width: 100px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #fcf9ee;
+  border-radius: 10px;
+  border: 1px solid #e2e1d7;
+}
+.pag4 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pag4 .imgcontainer {
+  background: url(https://www.jomalone.com/media/export/cms/campaigns/fy24_bau/Colognes/DA_JM_SHOT_15_1252x560_HP3DT.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 83%;
+  height: 80%;
+}
+.pag4 h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 20px 0;
+}
+.pag4 p {
+  text-decoration: underline;
+}
+.pag5,
+.pag6 {
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  padding: 0 130px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.pag5 h2,
+.pag6 h2 {
+  padding: 20px 0;
+}
+.pag5 p,
+.pag6 p {
+  text-decoration: underline;
+}
+.pag5 .left,
+.pag5 .right,
+.pag6 .left,
+.pag6 .right {
+  text-align: center;
+  width: 48%;
+  height: 100%;
+}
+.pag5 .img,
+.pag6 .img {
+  width: 100%;
+  height: 750px;
+}
+.pag5 .left .img {
+  background: url(https://www.jomalone.com/media/export/cms/homepage/New/GINGERBISCUIT_600X660_DESKTOP_MOD4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pag5 .right .img {
+  /* padding-top: 40px; */
+  background: url(https://www.jomalone.com/media/export/cms/homepage/New/blueagave_600x660_mod4_desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag6 .left .img {
+  background: url(https://www.jomalone.com/media/export/cms/homepage/New/birthdaymod4desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pag6 .right .img {
+  background: url(https://www.jomalone.com/media/export/cms/homepage/Services/600x660_Online_Appointment_Booking.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pag7 {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.pag7 .left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+}
+.pag7 .left h4,
+.pag7 .left p {
+  padding: 15px;
+}
+.pag7 .left .col2 {
+  height: 90%;
+  width: 300px;
+}
+.pag7 .left .col1 {
+  height: 90%;
+  width: 200px;
+}
+
+.pag7 .right {
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+.pag7 .right p {
+  text-transform: uppercase;
+  padding-top: 100px;
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
